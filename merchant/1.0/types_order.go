@@ -376,7 +376,7 @@ type ChecksThreeDs struct {
 	//The result of 3D Secure check.
 	State string `json:"state"`
 	// The 3D Secure version.
-	Version string `json:"version"`
+	Version int `json:"version"`
 }
 
 type Checks struct {
